@@ -10,7 +10,10 @@ implementing a Rectangle and a Square class.
 
 
 class Rectangle(Shape):
-    pass
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
     # implement __init__ method with width and height
     # implement get_area method
     # implement get_perimeter method
